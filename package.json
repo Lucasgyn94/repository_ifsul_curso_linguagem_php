@@ -1,0 +1,13 @@
+{
+  "name": "curso_php_instituto_federal_sul",
+  "version": "1.0.0",
+  "description": "* Repositório para armazenamento dos conteúdos apresentados durante o curso de Linguagem PHP oferecido pelo Instituto Federal do Rio Grande DO Sul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "browser-sync start --proxy 'localhost:8081/curso_php_instituto_federal_sul' --files '**/*.php'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
