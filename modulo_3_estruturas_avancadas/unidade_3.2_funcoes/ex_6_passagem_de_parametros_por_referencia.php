@@ -10,9 +10,14 @@
     <?php
         echo "<h1>Passagem de Parâmetros Por Referência</h1>";
         
+        $n1 = 5;
+
         function soma (&$n1, $n2) {
             $n1 += $n2;
         }
+
+        soma($n1, 6);
+        echo $n1;
     ?>
 
 </body>
