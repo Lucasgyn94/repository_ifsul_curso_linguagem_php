@@ -30,12 +30,12 @@
             /* mysqli_query() retorna em forma de array os resultados da busca (SELECT) para $resultado, que é extraído registro a registro. */
             while($registro = mysqli_fetch_array($resultado)) {
                  $nome = $registro['nome'];
-                $endereco = $registro['endereco']; // Corrigido
+                $endereco = $registro['endereco'];
                 $cidade = $registro['cidade'];
 
                 echo "<tr>";
                 echo "<td>" . $nome . "</td>";
-                echo "<td>" . $endereco . "</td>"; // Corrigido
+                echo "<td>" . $endereco . "</td>"; 
                 echo "<td>" . $cidade . "</td>";
                 echo "</tr>";
             }
